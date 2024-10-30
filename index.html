@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <!-- nav -->
+      <div>
+        <div class="flex justify-evenly mt-3 lg:justify-evenly items-center">
+          <div>
+            <a class="btn btn-ghost text-[24px]"
+              ><span
+                ><svg
+                  width="32.010620"
+                  height="32.010742"
+                  viewBox="0 0 32.0106 32.0107"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <desc>Created with Pixso.</desc>
+                  <defs />
+                  <rect
+                    id="arrow-up-right-01"
+                    rx="15.499997"
+                    width="30.999994"
+                    height="31.000031"
+                    transform="translate(0.510620 0.500000) rotate(0.019056)"
+                    fill="#ABEF5F"
+                    fill-opacity="1.000000"
+                  />
+                  <path
+                    id="Vector"
+                    d="M21 11L10 22"
+                    stroke="#1C1C1C"
+                    stroke-opacity="1.000000"
+                    stroke-width="1.500000"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    id="Vector"
+                    d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17"
+                    stroke="#1C1C1C"
+                    stroke-opacity="1.000000"
+                    stroke-width="1.500000"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  />
+                </svg> </span
+              ><span class="text-[30px]">Rinterio</span>
+            </a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul
+              class="menu menu-horizontal px-1 text-base text-gray-400 font-semibold"
+            >
+              <li><a class="text-black">Home</a></li>
+
+              <li><a>Services</a></li>
+
+              <li><a>Portfolio</a></li>
+
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="flex gap-2 hidden lg:flex">
+            <div>
+              <svg
+                width="48.015991"
+                height="48.016113"
+                viewBox="0 0 48.016 48.0161"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs />
+                <rect
+                  id="Frame 2"
+                  rx="23.500000"
+                  width="47.000000"
+                  height="47.000000"
+                  transform="translate(0.515991 0.500000) rotate(0.019056)"
+                  fill="#FFFFFF"
+                  fill-opacity="1.000000"
+                />
+                <path
+                  id="Vector"
+                  d="M29.5 29.5L34 34.01"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                />
+                <path
+                  id="Vector"
+                  d="M23.01 14C18.04 14 14.01 18.03 14 23C14 27.97 18.03 32 23 32C27.97 32 32 27.98 32 23.01C32 18.04 27.98 14 23.01 14Z"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linejoin="round"
+                />
+                <rect
+                  id="Frame 2"
+                  rx="23.500000"
+                  width="47.000000"
+                  height="47.000000"
+                  transform="translate(0.515991 0.500000) rotate(0.019056)"
+                  stroke="#E9E9E9"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.000000"
+                />
+              </svg>
+            </div>
+            <div>
+              <svg
+                width="48.015961"
+                height="48.016113"
+                viewBox="0 0 48.016 48.0161"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs />
+                <rect
+                  id="Frame 3"
+                  rx="23.500000"
+                  width="47.000000"
+                  height="47.000000"
+                  transform="translate(0.515961 0.500000) rotate(0.019056)"
+                  fill="#FFFFFF"
+                  fill-opacity="1.000000"
+                />
+                <path
+                  id="Vector"
+                  d="M20 28L27.26 28C31.75 28.01 32.44 25.19 33.26 21.08C33.5 19.89 33.62 19.3 33.34 18.9C33.05 18.51 32.5 18.51 31.4 18.51L18 18.5"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linecap="round"
+                />
+                <path
+                  id="Vector"
+                  d="M20 28L17.38 15.52C17.16 14.63 16.36 14 15.44 14L14.51 14"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linecap="round"
+                />
+                <path
+                  id="Vector"
+                  d="M20.88 28L20.47 28C19.11 28 18 29.15 18 30.57C18 30.81 18.18 31 18.41 31L29.5 31"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                />
+                <path
+                  id="Vector"
+                  d="M22.5 34C21.67 34 21 33.33 21 32.5C21 31.67 21.67 31 22.5 31C23.33 31 24 31.67 24 32.5C24 33.33 23.33 34 22.5 34Z"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                />
+                <path
+                  id="Vector"
+                  d="M29.5 34C28.67 34 28 33.33 28 32.5C28 31.68 28.67 31 29.5 31C30.33 31.01 31 31.68 31 32.51C31 33.33 30.33 34.01 29.5 34Z"
+                  stroke="#737373"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                />
+                <rect
+                  id="Frame 3"
+                  rx="23.500000"
+                  width="47.000000"
+                  height="47.000000"
+                  transform="translate(0.515961 0.500000) rotate(0.019056)"
+                  stroke="#E9E9E9"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.000000"
+                />
+              </svg>
+            </div>
+            <div>
+              <button class="flex gap-2 bg-lime-500 px-3 py-3 rounded-full">
+                <span class="text-xl font-bold">Book Consult</span>
+                <span
+                  ><svg
+                    width="32.010635"
+                    height="32.010742"
+                    viewBox="0 0 32.0106 32.0107"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <desc>Created with Pixso.</desc>
+                    <defs />
+                    <rect
+                      id="arrow-up-right-01"
+                      rx="15.499997"
+                      width="30.999994"
+                      height="31.000031"
+                      transform="translate(0.510635 0.500000) rotate(0.019056)"
+                      fill="#1C1C1C"
+                      fill-opacity="1.000000"
+                    />
+                    <path
+                      id="Vector"
+                      d="M21 11L10 22"
+                      stroke="#FFFFFF"
+                      stroke-opacity="1.000000"
+                      stroke-width="1.500000"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      id="Vector"
+                      d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17"
+                      stroke="#FFFFFF"
+                      stroke-opacity="1.000000"
+                      stroke-width="1.500000"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost font-bold text-4xl lg:hidden"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 lg:w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 lg:w-52 lg:p-2 shadow"
+            >
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner  -->
+      <div class="flex flex-col justify-center items-center gap-8 mt-6">
+        <img class="lg:size-[500px]" src="./assets/banner.png" alt="" />
+        <h1 class="text-5xl lg:text-8xl text-center font-semibold text-black">
+          A barn house of this design has a <br />
+          striking appearance
+        </h1>
+        <p class="text-center text-gray-600 font-medium">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, <br />
+          and large windows that flood the space with natural light.
+        </p>
+        <button class="btn bg-lime-200">
+          <span class="text-xl"> View Details </span>
+          <span
+            ><svg
+              width="32.010620"
+              height="32.010742"
+              viewBox="0 0 32.0106 32.0107"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <rect
+                id="arrow-up-right-01"
+                rx="15.499997"
+                width="30.999994"
+                height="31.000031"
+                transform="translate(0.510620 0.500000) rotate(0.019056)"
+                fill="#ABEF5F"
+                fill-opacity="1.000000"
+              />
+              <path
+                id="Vector"
+                d="M21 11L10 22"
+                stroke="#1C1C1C"
+                stroke-opacity="1.000000"
+                stroke-width="1.500000"
+                stroke-linecap="round"
+              />
+              <path
+                id="Vector"
+                d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17"
+                stroke="#1C1C1C"
+                stroke-opacity="1.000000"
+                stroke-width="1.500000"
+                stroke-linejoin="round"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <!-- about section -->
+      <section class="relative mt-28">
+        <div
+          class="border absolute -mt-12 ml-44 border-dashed border-gray-400 font-semibold w-32 hidden lg:block"
+        >
+          <img class="p-6" src="./assets/Vector.png" alt="" />
+        </div>
+
+        <div class="lg:flex justify-center mt-16 gap-8">
+          <div class="lg:flex lg:flex-col gap-6">
+            <div class="text-center lg:text-start mb-2">
+              <h4 class="btn">
+                <span>
+                  <svg
+                    width="17.747192"
+                    height="16.970703"
+                    viewBox="0 0 17.7472 16.9707"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs />
+                    <path
+                      id="Vector"
+                      d="M16.3 8.48L0.75 8.48"
+                      stroke="#494949"
+                      stroke-opacity="1.000000"
+                      stroke-width="1.500000"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      id="Vector"
+                      d="M12.67 3.62C12.67 3.62 16.99 7.27 16.99 8.48C16.99 9.69 12.67 13.34 12.67 13.34"
+                      stroke="#494949"
+                      stroke-opacity="1.000000"
+                      stroke-width="1.500000"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                    />
+                  </svg> </span
+                ><span>About us</span>
+              </h4>
+            </div>
+            <div class="text-center flex flex-col gap-4">
+              <h1 class="text-4xl lg:text-7xl font-semibold">
+                We design thoughtful, <br />
+                liveable spaces
+              </h1>
+              <p>
+                The barn house captivates with its blend of rustic charm <br />
+                and modern sophistication, featuring weathered wood, sleek metal
+                accents.
+              </p>
+            </div>
+            <div class="flex gap-4 mt-4 bg-white p-5 rounded-3xl">
+              <img src="./assets/commercial.png" alt="" />
+              <div>
+                <h2 class="text-2xl font-semibold">Commercial</h2>
+                <p>
+                  The barn house captivates with its blend of rustic charm and
+                  modern.
+                </p>
+              </div>
+            </div>
+            <div class="flex mt-3 gap-4 bg-white p-5 rounded-3xl">
+              <img src="./assets/residential.png" alt="" />
+              <div>
+                <h2 class="text-2xl font-semibold">Residential</h2>
+                <p>
+                  The barn house captivates with its blend of rustic charm and
+                  modern.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex justify-center">
+            <img
+              class="h-48 w-80 lg:w-full lg:h-full mt-9 rounded-2xl"
+              src="./assets/Rectangle.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- how we work section  -->
+      <section class="text-center mt-32">
+        <div class="">
+          <h2 class="btn mb-4">
+            <span>
+              <svg
+                width="17.747192"
+                height="16.970703"
+                viewBox="0 0 17.7472 16.9707"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs />
+                <path
+                  id="Vector"
+                  d="M16.3 8.48L0.75 8.48"
+                  stroke="#494949"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linecap="round"
+                />
+                <path
+                  id="Vector"
+                  d="M12.67 3.62C12.67 3.62 16.99 7.27 16.99 8.48C16.99 9.69 12.67 13.34 12.67 13.34"
+                  stroke="#494949"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                /></svg></span
+            ><span>How we work</span>
+          </h2>
+          <p>
+            The barn house captivates with its blend of rustic <br />charm and
+            modern sophistication, br featuring weathered wood, sleek metal
+            accents.
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col lg:flex-row items-center lg:flex mt-8 lg:justify-center text-start gap-10"
+        >
+          <div class="card bg-base-100 w-72 shadow-xl bg-pink-200">
+            <div class="card-body">
+              <img class="size-10" src="./assets/concept.png" alt="" />
+              <h2 class="card-title">Concept</h2>
+              <p>
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+              <div class="card-actions justify-end"></div>
+            </div>
+          </div>
+          <div class="card bg-base-100 w-72 shadow-xl bg-yellow-200">
+            <div class="card-body">
+              <img class="size-10" src="./assets/concept.png" alt="" />
+              <h2 class="card-title">Design Process</h2>
+              <p>
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+              <div class="card-actions justify-end"></div>
+            </div>
+          </div>
+          <div class="card bg-base-100 w-72 shadow-xl bg-green-200">
+            <div class="card-body">
+              <img class="size-10" src="./assets/concept.png" alt="" />
+              <h2 class="card-title">Supervision</h2>
+              <p>
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+              <div class="card-actions justify-end"></div>
+            </div>
+          </div>
+          <div class="card bg-base-100 w-72 shadow-xl bg-blue-200">
+            <div class="card-body">
+              <img class="size-10" src="./assets/concept.png" alt="" />
+              <h2 class="card-title">Budget Planning</h2>
+              <p>
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+              <div class="card-actions justify-end"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio section -->
+      <section class="mt-9 flex flex-col gap-8">
+        <div class="text-center">
+          <h2 class="btn bg-lime-200">
+            <span
+              ><svg
+                width="17.747192"
+                height="16.970703"
+                viewBox="0 0 17.7472 16.9707"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs />
+                <path
+                  id="Vector"
+                  d="M16.3 8.48L0.75 8.48"
+                  stroke="#494949"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linecap="round"
+                />
+                <path
+                  id="Vector"
+                  d="M12.67 3.62C12.67 3.62 16.99 7.27 16.99 8.48C16.99 9.69 12.67 13.34 12.67 13.34"
+                  stroke="#494949"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.500000"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                /></svg></span
+            ><span>Explore our Latest works</span>
+          </h2>
+        </div>
+        <!-- title-des -->
+        <div class="text-center">
+          <h1 class="text-4xl mb-2 text-black font-semibold">
+            Our Latest Portfolio
+          </h1>
+          <p>
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+
+        <!-- cards -->
+        <div class="flex flex-col justify-center items-center bg-white lg:p-16 ">
+          <div class="flex flex-col lg:flex lg:flex-row justify-center bg-slate-50 gap-x-16"
+          >
+            <div
+              class="flex flex-col lg:flex-row lg:flex justify-center gap-8 border px-7 py-4 rounded-xl"
+            >
+              <img src="./assets/img1.png" alt="" />
+              <div>
+                <h1 class="font-semibold text-2xl">Commercial</h1>
+                <p>
+                  The barn house captivates with its blend of rustic charm
+                  <br />
+                  and modern. The barn house captivates with its blend of <br />
+                  rustic charm and modern .
+                </p>
+                <h2 class="flex gap-2 font-semibold">
+                  <span>View Details</span
+                  ><svg
+                    width="32.010620"
+                    height="32.010681"
+                    viewBox="0 0 32.0106 32.0107"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs />
+                    <rect
+                      id="arrow-up-right-01"
+                      rx="15.499997"
+                      width="30.999994"
+                      height="31.000031"
+                      transform="translate(0.510620 0.500000) rotate(0.019056)"
+                      fill="#ABEF5F"
+                      fill-opacity="1.000000"
+                    />
+                    <path
+                      id="Vector"
+                      d="M21 11L10 22"
+                      stroke="#212121"
+                      stroke-opacity="1.000000"
+                      stroke-width="1.500000"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      id="Vector"
+                      d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17"
+                      stroke="#212121"
+                      stroke-opacity="1.000000"
+                      stroke-width="1.500000"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </h2>
+              </div>
+            </div>
+            <div
+              class="lg:border flex flex-col justify-center px-7 py-4 rounded-xl"
+            >
+              <img src="./assets/img2.png" alt="" />
+            </div>
+          </div>
+
+          <div class="flex w-full  flex-col lg:flex justify-center bg-white lg:flex-row lg:gap-x-7 mt-4"
+          >
+            <div class=" lg:border flex flex-col justify-center px-7  py-4 rounded-xl"
+            >
+              <img src="./assets/img3.png" alt="" />
+            </div>
+
+            <div class="flex flex-col justify-center p-4 lg:flex-row lg:flex  gap-8 lg:border lg:px-7 py-4 rounded-xl"
+            >
+              <img src="./assets/img4.png" alt="" />
+              <div>
+                <h1 class="font-semibold text-2xl">Commercial</h1>
+                <p>
+                  The barn house captivates with <br />
+                  its blend of rustic charm and <br />modern. .
+                </p>
+                <h2 class="flex gap-2 font-semibold">
+                  <span>View Details</span
+                  ><svg
+                    width="32.010620"
+                    height="32.010681"
+                    viewBox="0 0 32.0106 32.0107"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs />
+                    <rect
+                      id="arrow-up-right-01"
+                      rx="15.499997"
+                      width="30.999994"
+                      height="31.000031"
+                      transform="translate(0.510620 0.500000) rotate(0.019056)"
+                      fill="#ABEF5F"
+                      fill-opacity="1.000000"
+                    />
+                    <path
+                      id="Vector"
+                      d="M21 11L10 22"
+                      stroke="#212121"
+                      stroke-opacity="1.000000"
+                      stroke-width="1.500000"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      id="Vector"
+                      d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17"
+                      stroke="#212121"
+                      stroke-opacity="1.000000"
+                      stroke-width="1.500000"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </h2>
+              </div>
+            </div>
+            <div class=" flex flex-col justify-center p-4  lg:border lg:px-7 py-4 rounded-xl">
+              <img src="./assets/img5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
